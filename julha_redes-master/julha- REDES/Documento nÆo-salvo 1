@@ -1,0 +1,14 @@
+suporte@example.invalid
+
+comandos:
+
+master
+https://191.52.55.161:8006/
+
+Criar o cluster na máquina master
+PveMaster# pvecm create CLUSTERNAME
+exemplo
+#pvecm create AdmSoCluster 
+
+Na máquina slave
+PveSlave1# #p

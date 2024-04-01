@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,300&display=swap');
+body {
+    font-family: 'Exo 2', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+    padding: 30px;
+}
+
+.titulo {
+    font-size: 3vmax;
+    font-weight: 500;
+    font-family: 'Exo 2', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-bottom: solid rgb(183, 104, 201) 3px;
+    margin-top: 2;
+}
+
+.fontsizelg {
+    font-size: 5vmax;
+    margin: 0;
+}
+
+.margin20 {
+    margin: 8px;
+}
+
+div.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 100px;
+}
+
+div.row {
+    border: 5px groove rgb(183, 104, 201);
+    padding: 5px;
+    min-height: 100px;
+    text-align: center;
+    transition: all 0.25s cubic-bezier(.59, -0.75, .34, 1.84);
+    transform-origin: center;
+    transform: scale(1.1);
+    background-color: rgb(243, 240, 247);
+}
+
+h1 {
+    font-size: 20px;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: rgb(10, 9, 10);
+}
+
+.row:hover {
+    background-color: rgb(253, 253, 253);
+    box-shadow: 0 0 30px rgb(140, 21, 170);
+}
+
+.row.skew:hover {
+    transform: skew(0deg);
+}
+
+@media (max-width:768px) {
+    div.container {
+        grid-template-columns: 1fr;
+    }
+}
+.julia{
+   text-align: center;
+    padding: 30px;
+    height: auto;
+}
